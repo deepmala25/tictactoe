@@ -1,1 +1,1 @@
-Developed a game using React JS
+Tic-Tac-Toe using React JS
