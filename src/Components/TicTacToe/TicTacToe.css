@@ -1,0 +1,87 @@
+/* General container styling */
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Title styling */
+  .title {
+    color: #2ecc71; /* Light bluish-green */
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+  }
+  
+  .title span {
+    color: #3498db; /* Bluish-green */
+  }
+  .title img {
+    width: 30px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align image vertically with text */
+  }
+  
+  /* Board styling */
+  .board {
+    
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  /* Row styling */
+  .board .row1,
+  .board .row2,
+  .board .row3 {
+    display: flex;
+    justify-content: center;
+
+    
+  }
+  
+  /* Box styling */
+  .board .boxes {
+    width: 100px;
+    height: 100px;
+    background-color: #bdc3c7; /* Dark bluish-green background */
+    border: 2px solid #bdc3c7;
+     /* Dark bluish-green border */
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .board .boxes:hover {
+    background-color:#95a5a6; /* Slightly darker bluish-gray background on hover */
+  }
+
+  .board .boxes img {
+    width: 70%; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Reset button styling */
+  .reset {
+    background-color: #3498db; /* Bluish-green */
+    color: #fff; /* White text */
+    border: 2px solid #2ecc71; /* Light bluish-green border */
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .reset:hover {
+    background-color: #2ecc71; /* Light bluish-green on hover */
+    border-color: #2ecc71;
+  }
+  
